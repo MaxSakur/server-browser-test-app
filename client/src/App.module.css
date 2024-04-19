@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: var(--padding-medium);
+}
+
+.infoStats {
+    display: flex;
+    gap: var(--padding-medium);
+}
+
+.stat > div {
+    position: relative !important;
+}
+
+/* Monitor section */
+
+.monitor {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: var(--padding-medium);
+}
