@@ -4,6 +4,12 @@
     height: 100vh;
 }
 
+h1 {
+    border-bottom: 1px solid var(--white);
+    padding-bottom: var(--padding-medium);
+    margin-bottom: var(--padding-medium);
+}
+
 /* Info section */
 
 .info {
@@ -11,9 +17,16 @@
     flex-direction: column;
     flex: 1;
     padding: var(--padding-medium);
+    border-right: 1px solid var(--white);
+}
+
+.infoProgress {
+    display: flex;
+    flex-direction: column;
 }
 
 .infoStats {
+    margin: var(--padding-medium) 0;
     display: flex;
     gap: var(--padding-medium);
 }
@@ -29,4 +42,11 @@
     flex-direction: column;
     flex: 1;
     padding: var(--padding-medium);
+}
+
+.listContainer {
+    margin-top: var(--padding-large);
+    position: relative;
+    max-height: calc(100vh - 320px);
+    overflow-y: scroll;
 }
